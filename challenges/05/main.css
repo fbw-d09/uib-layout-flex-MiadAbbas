@@ -4,7 +4,7 @@ body {
   border: 5px solid red;
 }
 
-div {
+.box {
   flex-shrink: 1;
   height: 100px;
   /* width: 150px;  */
@@ -12,4 +12,8 @@ div {
   margin: 1em;
   border: 2px solid red;
   text-align: center;
+}
+main {
+  display: flex;
+  justify-content: center;
 }
